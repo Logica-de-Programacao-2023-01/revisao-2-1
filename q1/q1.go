@@ -13,8 +13,6 @@ type Student struct {
 	Age      int
 	Subjects map[string]float64
 }
-
-func MergeStudentData(studentData1 map[string]Student, studentData2 map[string]Student) map[string]Student {
 	// Seu código aqui
 	package main
 
@@ -135,4 +133,3 @@ func main() {
 }
 
 	return nil
-}
